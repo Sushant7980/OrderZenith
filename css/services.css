@@ -1,0 +1,45 @@
+.how-it-work{
+    text-align: center;
+    padding:4rem,1.5rem;
+}
+.how-it-work h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding:1rem;
+}
+.step-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}
+.step{
+    background-color: #f2f2f2;
+    border: 2px solid brown;
+    border-radius:1.5rem;
+    width:16rem;
+    padding:1rem;
+    transition: transform 0.3 ease;
+}
+.step:hover{
+    transition: translateY(-10px);
+}
+.step-number{
+    font-size:2.5rem;
+    font-weight: 600;
+    color: #ebce2b;
+    margin-bottom: 1rem;
+    
+}
+.step-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Bree Serif', serif;
+
+}
+.step-descriptions{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: 'Bree Serif', serif;
+}
